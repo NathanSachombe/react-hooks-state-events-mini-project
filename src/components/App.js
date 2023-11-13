@@ -9,12 +9,14 @@ console.log({ CATEGORIES, TASKS });
 
 function App() {
   return (
-    <div className="App">
-      <h2>My tasks</h2>
-      <CategoryFilter />
-      <NewTaskForm />
-      <TaskList />
-    </div>
+    <>
+      <div className="App">
+        <h2>My tasks</h2>
+        <CategoryFilter />
+        <NewTaskForm />
+        <TaskList />
+      </div>
+    </>
   );
 }
 
